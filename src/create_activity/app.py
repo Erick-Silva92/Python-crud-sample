@@ -49,5 +49,5 @@ def lambda_handler(message, context):
     return {
         'statusCode': 201,
         'headers': {},
-        'body': json.dumps({'msg': 'Activity created'})
+        'body': json.dumps({'msg': 'Activity created '})
     }
